@@ -19,7 +19,7 @@ describe("Node Server", function() {
       request.get(base_url, function(error, response, body) {
         
         //expect(body).toBe("Hello World");
-            assert.equal("Hello World", body);
+            assert.equal("Hello World!", body);
             chai.assert.include(body,'Hello World!');
         //helloWorld.closeServer();
         done();
