@@ -1,7 +1,7 @@
 var request = require("request"),
     assert = require('assert'),
     chai = require('chai'),
-    base_url = "https://nodejs-basic.azurewebsites.net"
+    base_url = "https://nodejs-app-demo.azurewebsites.net"
 
 
 
